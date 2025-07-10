@@ -40,3 +40,17 @@ The project is implemented using **ROS** (Robot Operating System) and **Python**
 - [ ] Logging infrastructure (ROS bags or custom)
 - [ ] Modular data publishing and subscribing
 - [ ] Real-world testing on Jetson Nano
+
+## 🗂️ Directory Structure
+
+autonomous-sensor-stack/
+├── config/                  # Configuration files (sensor calibration, parameters, etc.)
+├── launch/                  # ROS launch files to start nodes
+│   └── sample_talker.launch
+├── nodes/                   # Custom ROS Python nodes
+│   └── sample_talker.py     # Example publisher node
+├── scripts/                 # Utility scripts (e.g., calibration, logging helpers)
+├── logs/                    # Collected log data and rosbag files
+├── docs/                    # Project documentation, diagrams, setup notes
+├── requirements.txt         # Python dependencies
+└── README.md                # Project overview and instructions
