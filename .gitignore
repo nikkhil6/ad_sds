@@ -1,5 +1,4 @@
 devel/
-logs/
 build/
 bin/
 lib/
@@ -46,6 +45,9 @@ qtcreator-*
 
 # Emacs
 .#*
+
+# macOS system files
+.DS_Store
 
 # Catkin custom files
 CATKIN_IGNORE
